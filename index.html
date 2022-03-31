@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="task-input">
+            <img src="bars-icon.svg" alt="icon">
+            <input type="text" autofocus placeholder="Adicione a nova tarefa">
+        </div>
+        <div class="controls">
+            <div class="filters">
+                <span class="active" data-status="all">Todos</span>
+                <span data-status="pending">Pendentes</span>
+                <span data-status="completed">Completos</span>
+            </div>
+            <button class="clear-btn">Apagar Todos</button>
+        </div>
+        <ul class="task-box">
+            <li class="task">
+                <label for="1">
+                    <input type="checkbox" id='1'>
+                    <p>Estudar node.js</p>
+                </label>
+                <div class="settings">
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <ul class="task-menu">
+                        <li><i class="fa-solid fa-pencil"></i></i>Editar</li>
+                        <li><i class="fa-solid fa-trash-can"></i>Deletar</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="task">
+                <label for="1">
+                    <input type="checkbox" id='1'>
+                    <p>Estudar node.js</p>
+                </label>
+                <div class="settings">
+                    <i class="uil uil-ellipsis-h"></i>
+                    <ul class="task-menu">
+                        <li><i class="uil uil-pen"></i>Editar</li>
+                        <li><i class="uil uil-trash"></i>Deletar</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="task">
+                <label for="1">
+                    <input type="checkbox" id='1'>
+                    <p>Estudar node.js</p>
+                </label>
+                <div class="settings">
+                    <i class="uil uil-ellipsis-h"></i>
+                    <ul class="task-menu">
+                        <li><i class="uil uil-pen"></i>Editar</li>
+                        <li><i class="uil uil-trash"></i>Deletar</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="task">
+                <label for="1">
+                    <input type="checkbox" id='1'>
+                    <p>Estudar node.js</p>
+                </label>
+                <div class="settings">
+                    <i class="uil uil-ellipsis-h"></i>
+                    <ul class="task-menu">
+                        <li><i class="uil uil-pen"></i>Editar</li>
+                        <li><i class="uil uil-trash"></i>Deletar</li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
